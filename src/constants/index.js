@@ -18,11 +18,11 @@ import {
   // starbucks,
   // tesla,
   // shopify,
-  carrent,
-  jobit,
-  tripguide,
+  avax,
+  lyriks,
+  reddit,
   threejs,
-  flutter
+  flutter,
 } from "../assets";
 
 export const navLinks = [
@@ -202,16 +202,16 @@ const technologies = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Avax Gods",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "About With a stunning design, interactive gameplay, smart wallet pairing, live interaction with smart contracts, and, most importantly, the ability to battle other players in real-time, AvaxGods is the best and the only Web3 battle-style online multiplayer card game.",
     tags: [
       {
-        name: "react",
+        name: "vite-react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "solidity",
         color: "green-text-gradient",
       },
       {
@@ -219,51 +219,54 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: avax,
+    source_code_link: "https://github.com/Jayakrishna20/avaxgods_nft_card_game",
+    live_link: "https://jk-avaxgods.netlify.app/",
   },
   {
-    name: "Job IT",
+    name: "Lyriks",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A fully-fledged music player with a modern homepage that gives you a search, lyrics, song exploration features, popular music around you, worldwide top charts, and much more. This is fully responisve web app with songs directly taken from the Shazam Core API",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "rapidapi",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "redux",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: lyriks,
+    source_code_link: "https://github.com/Jayakrishna20/lyriks",
+    live_link: "https://jk-lyriks-app.netlify.app/",
   },
   {
-    name: "Trip Guide",
+    name: "Reddit Clone",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Learn to build a Reddit clone from scratch using React, Firebase, Next.js, Chakra UI, and TypeScript. The application features authentication, Firestore database, cloud functions, security rules, Transactions, deployment, and more.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "chakraui",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "firebase",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: reddit,
+    source_code_link: "https://github.com/Jayakrishna20/reddit_clone",
+    live_link: "https://jk-reddit-clone.vercel.app/",
   },
 ];
 
-export { services, technologies,projects };
+export { services, technologies, projects };
